@@ -22,7 +22,8 @@ var yargs   = require('yargs')
   .describe('delimiter', 'delimiter of the csv file. Defaults to ";".')
   .describe('file', 'A csv file to parse. If absent, will read from standard input.')
   .describe('wait', 'minimum time to wait between queries, in milliseconds. Defaults to 200.')
-  .describe('doi', 'A single doi to resolve.');
+  .describe('doi', 'A single doi to resolve.')
+  .describe('extend', 'Extend metadata with license informations.');
 var argv = yargs.argv;
 
 // show usage if --help option is used
