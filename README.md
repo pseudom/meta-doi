@@ -49,6 +49,7 @@ Options:
   --wait, -w       minimum time to wait between queries, in milliseconds.
                    Defaults to 200.
   --doi            A single doi to resolve.
+  --extend, -e     Extend metadata with license information.
 ```
 
 CSV file enrichment
